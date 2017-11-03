@@ -14,7 +14,19 @@ Add lita-debug to your Lita instance's Gemfile:
 gem "lita-debug"
 ```
 
-## Demo
+## Configuration
+
+```ruby
+# lita_config.rb
+
+Lita.configure do |config|
+  config.handlers.debug.enable_eval = true
+  config.handlers.debug.restrict_eval_to = [:admins]
+  config.handlers.debug.restrict_debug_to = [:admins, :developers]
+end
+```
+
+## Usage
 
 ```
 Lita > lita debug
@@ -38,11 +50,3 @@ Lita > lita eval robot.name
 Lita > lita eval 1+2
 3
 ```
-
-## Configuration
-
-TODO: Describe any configuration attributes the plugin exposes.
-
-## Usage
-
-TODO: Describe the plugin's features and how to use them.
