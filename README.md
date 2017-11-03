@@ -1,7 +1,7 @@
 # lita-debug
 
-[![Build Status](https://travis-ci.org/spajus/lita-debug.png?branch=master)](https://travis-ci.org/spajus/lita-debug)
-[![Coverage Status](https://coveralls.io/repos/spajus/lita-debug/badge.png)](https://coveralls.io/r/spajus/lita-debug)
+[![Build Status](https://travis-ci.org/spajus/lita-debug.png?branch=master)](https://travis-ci.org/spajus/lita-debug?branc=master)
+[![Coverage Status](https://coveralls.io/repos/github/spajus/lita-debug/badge.svg?branch=master)](https://coveralls.io/github/spajus/lita-debug?branch=master)
 
 A plugin for debugging [Lita](https://www.lita.io) interactively, in
 production.
